@@ -4,7 +4,8 @@ from settings import REMOVE_URLS_WL_DATA as WHITELIST
 
 url_extractor = URLExtract()
 
-def remove_urls(text, limit_not_remove = 140, placeholder = '***'):
+
+def remove_urls(text, limit_not_remove=0, placeholder='***'):
     """Removes URLs from given text
 
     Args:
